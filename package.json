@@ -1,0 +1,18 @@
+{
+  "name": "films_project_server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start:json-server": "json-server --watch db.json --port 5000",
+    "start:server": "node server.js",
+    "debug:server": "nodemon server.js"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "json-server": "^0.17.0",
+    "lowdb": "^3.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
